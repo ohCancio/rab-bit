@@ -3,10 +3,6 @@ Create user with root privileges. Caution with keyboard layout when setting pass
   adduser username
   usermod -aG sudo username
   sudo adduser username gpio
-Prevent need to reenter password when sudoing from username
-  sudo visudo
-  - Add line "username ALL=(ALL) NOPASSWD: ALL"
-  Press CTRL+X and hit 'y' to save file
 Log-out of user pi and into the new one
 Delete pi user (to avoid username guessing)
   deluser --remove-home pi
