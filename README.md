@@ -10,7 +10,7 @@ Update packages, distro and firmware if needed
   sudo apt-get update
   sudo apt-get upgrade
   sudo a+t-get dist-upgrade
-  sudo rpi-update
+  sudo rpi-update  # Apparently this is now discouraged
 Start OpenSSH server and enable it to start on boot
   sudo systemctl start ssh
   sudo systemctl enable ssh
