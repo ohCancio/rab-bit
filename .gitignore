@@ -1,0 +1,17 @@
+# Packaging
+.Python
+build/
+dist/
+sdist/
+*.egg-info/
+
+# Sphinx
+docs/_build/
+
+# environment
+.idea/
+.venv/
+venv/
+ENV/
+.env/
+env/
