@@ -24,3 +24,8 @@ Platform set-up:
 #. Set up Python3 environment
     * sudo apt-get install python3 python3-pip
     * pip3 install rpi.gpio "picamera[array]"  # "array" option downloads numpy dependency
+#. Enable Camera
+    * sudo raspi-config
+    * (go to advanced and set memory split to 128MB)
+    * (enable camera using menu)
+    * sudo chmod 777 /dev/vchiq

@@ -1,2 +1,6 @@
+pytest
+
 sphinx
 django
+rpi.gpio
+picamera[array]
